@@ -6,7 +6,7 @@ eureka:
     fetch-registry: false
     register-with-eureka: false
     service-url:
-      defaultZone: http://localhost:8787/eureka
+      defaultZone: http://localhost:8081/eureka
 logging:
   level:
     com:

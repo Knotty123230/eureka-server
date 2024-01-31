@@ -11,6 +11,7 @@ java {
     sourceCompatibility = '17'
 }
 
+
 repositories {
     mavenCentral()
 }
@@ -33,3 +34,6 @@ dependencyManagement {
 tasks.named('test') {
     useJUnitPlatform()
 }
+
+
+
